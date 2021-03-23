@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    max-width: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline;
+    right: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#logoPosition {
+    width: 120px;
+    margin-top: 17px;
+    margin-left: 0px;
+}
+
+.logoHeight {
+    z-index: 1;
+    width: 201px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+.catch {
+    z-index: 1;
+    width: 201px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+#line {
+    color: blue;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
+
+.red {
+    color: rgb(247, 11, 11);
+    font-family: 'Press Start 2P', cursive;
+}
+li {
+    padding-bottom: 1em;
+}
+.pokemon-background {
+    left: auto;
+    max-height: -400px;
+    background-color: rgb(29, 228, 195);
+    background-image: url(https://i.pinimg.com/originals/43/77/4f/43774fb3b7eecc24a4ae700260b206f0.jpg);
+}
