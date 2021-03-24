@@ -11,9 +11,11 @@
 
 
 #logoPosition {
-    width: 120px;
+    width: 150px;
     margin-top: 17px;
-    margin-left: 0px;
+    margin-right: 10px;
+    margin-left: 15px;
+    position: relative;
 }
 
 .logoHeight {
@@ -28,14 +30,14 @@
     z-index: 1;
     width: 201px;
     height: auto;
-    margin-top: 18px;
     margin-left: 0px;
 }
 
 #line {
     color: blue;
     font-family: 'VT323', monospace;
-    font-size: 18px;
+    font-size: 24px;
+    padding-left: 1em;
 }
 
 .red {
@@ -44,10 +46,18 @@
 }
 li {
     padding-bottom: 1em;
+    padding: 18px 5px;
+    background: rgb(226, 241, 8);
+    width: 9em;
 }
 .pokemon-background {
     left: auto;
     max-height: -400px;
     background-color: rgb(29, 228, 195);
     background-image: url(https://i.pinimg.com/originals/43/77/4f/43774fb3b7eecc24a4ae700260b206f0.jpg);
+}
+
+img {
+    height: 250px;
+    width: 200px;
 }
